@@ -917,7 +917,7 @@
                         <h2 class="project_title">
                             New project
                         </h2>
-                        <p class="project_description"> </p>
+                        <p class="project_description"> .</p>
                         <a href="#contact" class="button button--flex button--white">
                             Contact me
                             <i class="uil uil-message project_icon button_icon"></i>
@@ -938,14 +938,12 @@
                             points="432.482 221.092 370.486 159.348 432.419 97.604 413.537 78.785 332.785 159.348 413.6 239.911 432.482 221.092"
                             fill="#e6e6e6" style="isolation:isolate" />
                         <polygon
-                            points="643.457 209.763 705.39 148.019 643.457 86.274 662.339 67.455 743.154 148.019 662.339 228.582 643.457 209.763 643.457 209.763"
-                             />
+                            points="643.457 209.763 705.39 148.019 643.457 86.274 662.339 67.455 743.154 148.019 662.339 228.582 643.457 209.763 643.457 209.763" />
                         <path
                             d="M537.59506,385.05149h25.176v-25.176H537.595Zm126.38359-25.176h-25.176v25.176h25.176Zm-75.77981,25.176h25.176v-25.176h-25.176Z"
-                            transform="translate(-71 -232.62729)"  />
+                            transform="translate(-71 -232.62729)" />
                         <polygon
-                            points="432.482 209.133 370.486 147.389 432.419 85.645 413.537 66.826 332.785 147.389 413.6 227.952 432.482 209.133"
-                             />
+                            points="432.482 209.133 370.486 147.389 432.419 85.645 413.537 66.826 332.785 147.389 413.6 227.952 432.482 209.133" />
                         <polygon
                             points="129.305 410.449 143.399 413.856 163.248 361.117 142.447 356.088 129.305 410.449"
                             fill="#a0616a" />
@@ -1041,8 +1039,6 @@
                     </div>
                     <div class="contact_information">
                         <i class="uil uil-envelope contact_icon"></i>
-
-
                         <div>
                             <h3 class="contact_title">Contact Me</h3>
                             <span class="contact_subtitle">salguero.contacto@gmail.com</span>
@@ -1057,29 +1053,29 @@
 
                     </div>
                 </div>
-                <form action="" class="contact_form grid">
+                <form action="Enviar.php" method="POST" class="contact_form grid">
                     <div class="contact_inputs grid">
                         <div class="contact_content">
                             <label for="" class="contact_label">Name</label>
-                            <input type="text" placeholder="Name" class="contact_input">
+                            <input type="text" name="name" placeholder="Name" class="contact_input">
                         </div>
                         <div class="contact_content">
                             <label for="" class="contact_label">Email</label>
-                            <input type="email" placeholder="Email " class="contact_input">
+                            <input type="email" name="email" placeholder="Email " class="contact_input">
                         </div>
                     </div>
                     <div class="contact_content">
                         <label for="" class="contact_label">Project</label>
-                        <input type="text" placeholder="Project" class="contact_input">
+                        <input type="text" name="project" placeholder="Project" class="contact_input">
                     </div>
                     <div class="contact_content">
                         <label for="" class="contact_label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
                     </div>
                     <div>
-                        <a href="#" class="button button--flex">Send Message
+                        <button type="submit" class="button button--flex btn-form">Send Message
                             <i class="uil uil-message button_icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -1091,7 +1087,7 @@
             <div class="footer_container container grid">
                 <div>
                     <h1 class="footer_title">Bernardo</h1>
-                    <span class="footer_subtitle">Desarrollador en desarollo</span>
+                    <span class="footer_subtitle">Desarrollador en desarrollo</span>
                 </div>
                 <ul class="footer_links">
                     <li>
