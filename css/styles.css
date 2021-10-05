@@ -878,7 +878,10 @@ nav.icon {
 .footer_title, .footer_subtitle, .footer_link, .footer_social {
     color: #fff;
 }
-
+.btn-form{
+    border: none;
+    cursor: pointer;
+}
 /*=============MEDIAS QUERYS===============*/
 
 /*For small devices*/
